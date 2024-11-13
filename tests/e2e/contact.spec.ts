@@ -1,5 +1,4 @@
 import { test } from "fixture";
-import { faker } from "@faker-js/faker";
 
 test.use({ storageState: "playwright/.auth/user.json" });
 test.describe("Contact Creation", () => {
